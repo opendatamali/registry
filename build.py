@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# vim: ai ts=4 sts=4 et sw=4 nu
+
+from __future__ import (unicode_literals, absolute_import,
+                        division, print_function)
 import json
 import urllib2
 try:
@@ -70,6 +76,7 @@ def load(dataset_names):
 
 def build_index(dataset_list_url, outpath='datapackage-index.json'):
     dataset_list = open(dataset_list_url).read().split('\n')
+    print(dataset_list)
     # strip out blank lines or similar which can creep in
     dataset_list = [_to_dp_url(ds) for ds in dataset_list if ds]
     index = load(dataset_list)
@@ -78,7 +85,7 @@ def build_index(dataset_list_url, outpath='datapackage-index.json'):
 
 def _to_dp_url(nameOrUrl):
     if '/' not in nameOrUrl:
-        url = 'https://raw.github.com/datasets/' + nameOrUrl + '/master/'
+        url = 'https://raw.github.com/opendatamali/datasets/master/' + nameOrUrl + '/'
     else:
         url = nameOrUrl
 
@@ -87,7 +94,7 @@ def _to_dp_url(nameOrUrl):
         url += '/datapackage.json'
 
     return url
-        
+
 
 
 import sys
