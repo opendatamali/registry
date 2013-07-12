@@ -1,6 +1,6 @@
 {
   "hotline-sos-2013": {
-    "description": "Le fichier CSV ci-joint contient les donn\u00e9es brutes de la Hotline SOS D\u00e9mocratie.\n\n* Chaque ligne correspond \u00e0 un appel de la hotline.\n* Les demandes d'appels non r\u00e9pondues (ou non saisies) ne sont pas pr\u00e9sentes.\n* La liste des sujets avec codes est pr\u00e9sente ci-dessous.\n* Les codes des localit\u00e9 correspondent \u00e0 la BDD pr\u00e9sente sur OpenData.ml.\n* Les num\u00e9ros ne sont pas pr\u00e9sents pour des raisons de confidentialit\u00e9.", 
+    "description": "Liste des appels effectu\u00e9s par la Hotline SOS D\u00e9mocratie/Jokkolabs en vue de l'\u00e9lection pr\u00e9sidentielle de Juillet 2013.\n Chaque appel fait suite \u00e0 une demande d'une personne (bip ou SMS).", 
     "download_url": "https://raw.github.com/opendatamali/sos_hotline_data/master/hotline_data.csv", 
     "keywords": [
       "Hotline", 
@@ -8,7 +8,7 @@
       "Mali", 
       "\u00c9lections"
     ], 
-    "last_updated": "2013-07-12T17:02:05.840700", 
+    "last_updated": "2013-07-12T17:57:20.871217", 
     "licenses": [
       {
         "id": "odc-pddl", 
@@ -16,10 +16,10 @@
       }
     ], 
     "name": "hotline-sos-2013", 
-    "readme": "Le fichier CSV ci-joint contient les donn\u00e9es brutes de la Hotline SOS D\u00e9mocratie.\n\n* Chaque ligne correspond \u00e0 un appel de la hotline.\n* Les demandes d'appels non r\u00e9pondues (ou non saisies) ne sont pas pr\u00e9sentes.\n* La liste des sujets avec codes est pr\u00e9sente ci-dessous.\n* Les codes des localit\u00e9 correspondent \u00e0 la BDD pr\u00e9sente sur OpenData.ml.\n* Les num\u00e9ros ne sont pas pr\u00e9sents pour des raisons de confidentialit\u00e9.", 
+    "readme": "Liste des appels effectu\u00e9s par la Hotline SOS D\u00e9mocratie/Jokkolabs en vue de l'\u00e9lection pr\u00e9sidentielle de Juillet 2013.\n Chaque appel fait suite \u00e0 une demande d'une personne (bip ou SMS).", 
     "resources": [
       {
-        "path": "data/gdp.csv", 
+        "path": "hotline_data.csv", 
         "schema": {
           "fields": [
             {
@@ -263,7 +263,7 @@
             }
           ]
         }, 
-        "url": "https://raw.github.com/opendatamali/sos_hotline_data/master/data/gdp.csv"
+        "url": "https://raw.github.com/opendatamali/sos_hotline_data/master/hotline_data.csv"
       }
     ], 
     "sources": [
