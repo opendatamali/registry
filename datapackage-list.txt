@@ -1,1 +1,2 @@
 villages-mali-test
+https://raw.github.com/opendatamali/sos_hotline_data/master/
