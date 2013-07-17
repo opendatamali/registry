@@ -1,2 +1,4 @@
-villages-mali-test
+bureaux-vote-PRM2013
+candidats-PRM2013
+localites-mali
 https://raw.github.com/opendatamali/sos_hotline_data/master/

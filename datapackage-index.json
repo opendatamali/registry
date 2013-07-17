@@ -1,14 +1,147 @@
 {
+  "bureaux-vote-PRM2013": {
+    "description": "Liste exhaustives des bureaux de votes pour l'\u00e9lection pr\u00e9sidentielle de 2013.", 
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/bureaux-vote-PRM2013/liste-bureaux-vote.csv", 
+    "homepage": "http://datahub.io/dataset/bureaux-de-vote-election-presidentielle-2013", 
+    "id": "bureaux-vote-PRM2013", 
+    "name": "bureaux-vote-PRM2013", 
+    "readme": "Liste exhaustives des bureaux de votes pour l'\u00e9lection pr\u00e9sidentielle de 2013.", 
+    "resources": [
+      {
+        "path": "Liste-des-bureaux-vote-PRM2013.csv", 
+        "schema": {
+          "fields": [
+            {
+              "description": "R\u00e9gion", 
+              "id": "REGION", 
+              "label": "R\u00e9gion", 
+              "type": "string"
+            }, 
+            {
+              "description": "Cercle", 
+              "id": "CERCLE", 
+              "label": "Cercle", 
+              "type": "string"
+            }, 
+            {
+              "description": "Commune", 
+              "id": "COMMUNE", 
+              "label": "Commune", 
+              "type": "string"
+            }, 
+            {
+              "description": "Village/Fraction/Quartier", 
+              "id": "VFQ", 
+              "label": "Village", 
+              "type": "string"
+            }, 
+            {
+              "description": "Centre de Vote", 
+              "id": "CV", 
+              "label": "Centre de vote", 
+              "type": "string"
+            }, 
+            {
+              "description": "n\u00ba bureau de vote dans le centre", 
+              "id": "BV", 
+              "label": "Bureau de vote", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nb \u00e9lecteurs Homme", 
+              "id": "ELECTEURS_M", 
+              "label": "\u00c9lecteurs Homme", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nb \u00e9lecteurs Femme", 
+              "id": "ELECTEURS_F", 
+              "label": "\u00c9lecteurs Femme", 
+              "type": "number"
+            }, 
+            {
+              "description": "Nb \u00e9lecteurs total", 
+              "id": "ELECTEURS", 
+              "label": "\u00c9lecteurs", 
+              "type": "number"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/opendatamali/datasets/master/bureaux-vote-PRM2013/liste-bureaux-vote.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": " Commission \u00c9lectorale Nationale Ind\u00e9pendante (CENI)"
+      }
+    ], 
+    "title": "Bureaux de vote - \u00c9lection pr\u00e9sidentielle 2013"
+  }, 
+  "candidats-PRM2013": {
+    "description": "Liste exhaustives des candidats \u00e0 l'\u00e9lection pr\u00e9sidentielle de 2013.", 
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/candidats-PRM2013/Liste-des-candidats-PRM2013.csv", 
+    "homepage": "http://datahub.io/dataset/candidats-election-presidentielle-mali-2013", 
+    "id": "candidats-PRM2013", 
+    "licenses": [
+      {
+        "id": "odc-pddl", 
+        "url": "http://opendatacommons.org/licenses/pddl/"
+      }
+    ], 
+    "name": "candidats-PRM2013", 
+    "readme": "Liste exhaustives des candidats \u00e0 l'\u00e9lection pr\u00e9sidentielle de 2013.", 
+    "resources": [
+      {
+        "path": "Liste-des-candidats-PRM2013.csv", 
+        "schema": {
+          "fields": [
+            {
+              "description": "Code Unique", 
+              "id": "Rang", 
+              "label": "Rang", 
+              "type": "number"
+            }, 
+            {
+              "description": "Civilit\u00e9", 
+              "id": "Civilit\u00e9", 
+              "label": "Civilit\u00e9", 
+              "type": "string"
+            }, 
+            {
+              "description": "Nom", 
+              "id": "Nom", 
+              "label": "Nom", 
+              "type": "string"
+            }, 
+            {
+              "description": "Pr\u00e9nom", 
+              "id": "Pr\u00e9nom", 
+              "label": "Pr\u00e9nom", 
+              "type": "string"
+            }
+          ]
+        }, 
+        "url": "https://raw.github.com/opendatamali/datasets/master/candidats-PRM2013/Liste-des-candidats-PRM2013.csv"
+      }
+    ], 
+    "sources": [
+      {
+        "name": " Commission \u00c9lectorale Nationale Ind\u00e9pendante (CENI)"
+      }
+    ], 
+    "title": "candidats \u00e0 l'\u00e9lection pr\u00e9sidentielle 2013"
+  }, 
   "hotline-sos-2013": {
     "description": "Liste des appels effectu\u00e9s par la Hotline SOS D\u00e9mocratie/Jokkolabs en vue de l'\u00e9lection pr\u00e9sidentielle de Juillet 2013.\n Chaque appel fait suite \u00e0 une demande d'une personne (bip ou SMS).", 
     "download_url": "https://raw.github.com/opendatamali/sos_hotline_data/master/hotline_data.csv", 
+    "homepage": "http://datahub.io/dataset/hotline-sos-democratie", 
     "keywords": [
       "Hotline", 
       "SOS D\u00e9mocratie", 
       "Mali", 
       "\u00c9lections"
     ], 
-    "last_updated": "2013-07-12T17:57:20.871217", 
+    "last_updated": "2013-07-17T12:14:58.665258", 
     "licenses": [
       {
         "id": "odc-pddl", 
@@ -260,6 +393,11 @@
               "id": "topic_H2", 
               "label": "Ne repond pas", 
               "type": "boolean"
+            }, 
+            {
+              "id": "topic_H3", 
+              "label": "D\u00e9j\u00e0 rappel\u00e9", 
+              "type": "boolean"
             }
           ]
         }, 
@@ -279,82 +417,91 @@
         "state": {
           "group": "received_on", 
           "series": [
-            "Rate"
+            "topics_count"
           ]
         }, 
         "type": "Graph"
       }
     ]
   }, 
-  "villages-mali": {
-    "description": "Liste des villages du Mali.", 
-    "download_url": "https://raw.github.com/opendatamali/datasets/master/villages-mali-test/villages_mali.csv", 
-    "id": "test-villages", 
+  "localites-mali": {
+    "description": "Liste codifi\u00e9e de toutes les localit\u00e9s du Mali.", 
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/localites-mali/mali-entities.csv", 
+    "homepage": "http://datahub.io/dataset/localites-du-mali", 
+    "id": "localites-mali", 
     "licenses": [
       {
         "id": "odc-pddl", 
         "url": "http://opendatacommons.org/licenses/pddl/"
       }
     ], 
-    "name": "villages-mali", 
-    "readme": "Liste des villages du Mali.", 
-    "readme_html": "Test", 
+    "name": "localites-mali", 
+    "readme": "Liste codifi\u00e9e de toutes les localit\u00e9s du Mali.", 
     "resources": [
       {
-        "path": "villages_mali.csv", 
+        "path": "mali-entities.csv", 
         "schema": {
           "fields": [
             {
               "description": "Code Unique", 
-              "id": "Code", 
-              "type": "number"
+              "id": "code", 
+              "type": "string"
+            }, 
+            {
+              "description": "R\u00e9gion", 
+              "id": "region", 
+              "type": "string"
             }, 
             {
               "description": "Cercle", 
-              "id": "Cercle", 
+              "id": "cercle", 
               "type": "string"
             }, 
             {
               "description": "Commune", 
-              "id": "Commune", 
+              "id": "commune", 
               "type": "string"
             }, 
             {
-              "description": "Chef Lieu", 
-              "id": "ChefLieu", 
+              "description": "Village / Fraction / Quartier", 
+              "id": "vfq", 
               "type": "string"
             }, 
             {
-              "description": "Nom", 
-              "id": "Nom", 
-              "type": "string"
+              "description": "GPS Coordinates", 
+              "id": "gps", 
+              "type": "geopoint"
             }, 
             {
               "description": "Longitude", 
-              "id": "Longitude", 
+              "id": "longitude", 
               "type": "number"
             }, 
             {
               "description": "Latitude", 
-              "id": "Latitude", 
+              "id": "latitude", 
               "type": "number"
             }, 
             {
-              "description": "GPS Coordinates", 
-              "id": "GPS", 
-              "type": "geopoint"
+              "description": "Code du parent", 
+              "id": "parent_code", 
+              "type": "string"
             }
           ]
         }, 
-        "url": "https://raw.github.com/opendatamali/datasets/master/villages-mali-test/villages_mali.csv"
+        "url": "https://raw.github.com/opendatamali/datasets/master/localites-mali/mali-entities.csv"
       }
     ], 
     "sources": [
       {
         "name": "ANTIM", 
         "web": "http://antim.sante.gov.ml"
+      }, 
+      {
+        "name": "YELEMAN", 
+        "web": "http://yeleman.com"
       }
     ], 
-    "title": "Villages du Mali"
+    "title": "Localit\u00e9s du Mali"
   }
 }
